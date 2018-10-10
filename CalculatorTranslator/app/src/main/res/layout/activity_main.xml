@@ -10,90 +10,137 @@
         android:id="@+id/numberOne"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="48dp"
         android:onClick="One"
         android:text="1"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="152dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ViewOfTotaLNumber" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/numberFour"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="214dp" />
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="14dp"
+        android:onClick="Four"
+        android:text="4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numberOne" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/numberSeven"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="281dp" />
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="19dp"
+        android:onClick="Seven"
+        android:text="7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numberFour" />
 
     <Button
         android:id="@+id/numberTwo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
         android:onClick="Two"
         android:text="2"
-        tools:layout_editor_absoluteX="137dp"
-        tools:layout_editor_absoluteY="152dp" />
+        app:layout_constraintStart_toEndOf="@+id/numberOne"
+        app:layout_constraintTop_toTopOf="@+id/numberOne" />
 
     <Button
         android:id="@+id/numberThree"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="38dp"
         android:onClick="Three"
         android:text="3"
-        tools:layout_editor_absoluteX="258dp"
-        tools:layout_editor_absoluteY="152dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/numberTwo" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/numberFive"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="137dp"
-        tools:layout_editor_absoluteY="214dp" />
+        android:layout_marginTop="14dp"
+        android:onClick="Five"
+        android:text="5"
+        app:layout_constraintStart_toStartOf="@+id/numberTwo"
+        app:layout_constraintTop_toBottomOf="@+id/numberTwo" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/numberSix"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="258dp"
-        tools:layout_editor_absoluteY="222dp" />
+        android:layout_marginTop="14dp"
+        android:onClick="Six"
+        android:text="6"
+        app:layout_constraintStart_toStartOf="@+id/numberThree"
+        app:layout_constraintTop_toBottomOf="@+id/numberThree" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/numbeEight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="137dp"
-        tools:layout_editor_absoluteY="281dp" />
+        android:layout_marginBottom="16dp"
+        android:onClick="Eight"
+        android:text="8"
+        app:layout_constraintBottom_toTopOf="@+id/numberZero"
+        app:layout_constraintStart_toStartOf="@+id/numberZero" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/numberNine"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="258dp"
-        tools:layout_editor_absoluteY="281dp" />
+        android:layout_marginTop="19dp"
+        android:onClick="Nine"
+        android:text="9"
+        app:layout_constraintStart_toStartOf="@+id/numberSix"
+        app:layout_constraintTop_toBottomOf="@+id/numberSix" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/numberZero"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="137dp"
-        tools:layout_editor_absoluteY="345dp" />
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="16dp"
+        android:onClick="Zero"
+        android:text="0"
+        app:layout_constraintStart_toEndOf="@+id/numberSeven"
+        app:layout_constraintTop_toBottomOf="@+id/numberSeven" />
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="322dp"
-        android:layout_height="74dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="46dp" />
+        android:id="@+id/ViewOfTotaLNumber"
+        android:layout_width="0dp"
+        android:layout_height="63dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="41dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/numberOne"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Englishbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
+        android:layout_marginStart="16dp"
+        android:onClick="English"
+        android:text="English"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/SpanishButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
+        android:layout_marginEnd="38dp"
+        android:onClick="Spanish"
+        android:text="Spanish"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
 </android.support.constraint.ConstraintLayout>
