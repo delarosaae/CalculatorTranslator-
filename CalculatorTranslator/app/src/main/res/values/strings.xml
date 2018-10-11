@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CalculatorTranslator</string>
+    <string name="title_activity_translate">TranslateActivity</string>
 </resources>
