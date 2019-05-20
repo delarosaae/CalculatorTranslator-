@@ -6,4 +6,12 @@
     android:layout_height="match_parent"
     tools:context="com.example.angel.calculatortranslator.TranslateActivity">
 
+    <TextView
+        android:id="@+id/showNumber"
+        android:layout_width="322dp"
+        android:layout_height="43dp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+
 </android.support.constraint.ConstraintLayout>
