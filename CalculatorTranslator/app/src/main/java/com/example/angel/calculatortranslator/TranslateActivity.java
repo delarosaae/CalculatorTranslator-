@@ -24,8 +24,7 @@ public class TranslateActivity extends Activity {
 
 
         String showTranslatedNumber = getNumberInStringForm(numberInNumberForm);
-        //Toast showNumber = Toast.makeText(getApplicationContext(), showTranslatedNumber, Toast.LENGTH_LONG);
-        //showNumber.show();
+
 
         final TextView showNum = (TextView) findViewById(R.id.showNumber);
         showNum.setText(showTranslatedNumber);

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.angel.calculatortranslator.TranslateActivity">
+    tools:context=".SpanishTranslate">
 
     <TextView
         android:id="@+id/showNumber"
@@ -14,6 +14,5 @@
         android:layout_marginTop="114dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 
 </android.support.constraint.ConstraintLayout>

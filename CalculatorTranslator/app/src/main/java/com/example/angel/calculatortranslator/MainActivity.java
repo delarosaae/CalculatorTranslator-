@@ -112,7 +112,7 @@ public class MainActivity extends Activity {
     {
         String convertedToString = getNumber();
 
-        Intent spanish = new Intent(this, TranslateActivity.class);
+        Intent spanish = new Intent(this, SpanishTranslate.class);
         spanish.putExtra("theNumber", convertedToString);
         startActivity(spanish);
     }
